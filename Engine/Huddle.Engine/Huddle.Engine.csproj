@@ -182,6 +182,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\packages\Alchemy.2.2.1\lib\net40\Alchemy.dll</HintPath>
     </Reference>
+    <Reference Include="DepthSenseWrapper">
+      <HintPath>..\..\lib\DepthSenseWrapper\DepthSenseWrapper.dll</HintPath>
+    </Reference>
     <Reference Include="Emgu.CV">
       <HintPath>..\..\lib\Emgu.CV\Emgu.CV.dll</HintPath>
     </Reference>
@@ -331,6 +334,7 @@
     <Compile Include="Processor\OpenCv\Struct\IdentificationState.cs" />
     <Compile Include="Processor\OpenCv\Struct\TrackingState.cs" />
     <Compile Include="Processor\Sensors\Senz3DIntel.cs" />
+    <Compile Include="Processor\Sensors\Senz3DSoftKinetic.cs" />
     <Compile Include="Processor\Sensors\Utils\Senz3DUtils.cs" />
     <Compile Include="Util\LambdaExtensions.cs" />
     <Compile Include="Util\LambdaValueConverter.cs" />
