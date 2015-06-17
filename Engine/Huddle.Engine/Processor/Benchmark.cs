@@ -209,7 +209,11 @@ namespace Huddle.Engine.Processor
 
         public void StopMeasurement()
         {
+            // stop watch to get values
+            _stopwatch.Stop();
             var measurement = _stopwatch.ElapsedMilliseconds;
+            var ticks = _stopwatch.ElapsedTicks;
+            _stopwatch.Restart();
 
             //Console.WriteLine("Measurement {0}", measurement);
 

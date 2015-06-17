@@ -788,6 +788,8 @@ namespace Huddle.Engine.Processor.Sensors
 
         public override IData Process(IData data)
         {
+            // daten hier rein schieben und das publishen und so von hier machen das ich eine Zeit vom Bilder machen bekomme
+            System.Console.WriteLine("Debug me");
             return null;
         }
 
